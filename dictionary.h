@@ -14,5 +14,8 @@ bool check(const char *word);
 bool load(const char *dictionary);
 unsigned int size(void);
 bool unload(void);
+int getLetterIndex(const char letter);
+//void inittrie(node* new_trie);
+//bool unload_r(node* trie_part);
 
 #endif // DICTIONARY_H
